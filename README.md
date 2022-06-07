@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://kostya-codecamp.github.io/rsschool-cv/cv
+https://kostya-codecamp.github.io/rsschool-cv/
