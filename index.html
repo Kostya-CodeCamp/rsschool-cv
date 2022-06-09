@@ -1,120 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <title>CV-HTML</title>
+    <title>Kostya Terentiev CV</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <div class="left-column">
-            <div class="profile">
-                <div class="profile__img">
-                    <img src="20210125_230044-5.jpg" class="picture" alt="">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__introduce">
+                    <h1 class="header__title">Kostya <br> Terentiev</h1>
+                    <h3 class="header__subtitle">kostyaterentyev@gmail.com</h3>
                 </div>
-                <div class="profile__header">
-                    <span class="name">Kostya</span> Terentiev
+                <div class="header__photo">
+                    <img src="img/20210414_184552.jpg" alt="its me">
                 </div>
-                <div class="profile__subheader">
-                    front-end developer
-                </div>
-                <div class="profile__text-header">
-                    about myself
-                </div>
-                <div class="profile__text">
-                    <p>
-                        Hello, my name is Kostya. I have been working as a service engineer for almost 10 years. My responsibilities include repairing printers, MFPs and refilling cartridges. Every time I manage to solve a problem, I enjoy my work.
-                    </p>
-                </div>
-                <hr>
-            </div>
-            <div class="contacts">
-                <div class="profile__text-header">
-                    contact me
-                </div>
-                <div class="contact__header">telegram</div>
-                <div class="contact">@sveghXsvetel</div>
-                <div class="contact__header">email</div>
-                <div class="contact">kostyaterentyev@gmail.com</div>
-                <div class="contact__header">instagram</div>
-                <div class="contact">terentyev_jr</div>
-            </div>
-            <hr>
-            <div class="skills">
-                <div class="profile__text-header">
-                    Skills and Proficiency
-                </div>
-                <ul>
-                    <li>HTML5, CSS3</li>
-                    <li>JavaScript Basics</li>
-                    <li>Git, GitHub</li>
-                    <li>VS Code</li>
-                    <li>Adobe Photoshop</li>
-                </ul>
             </div>
         </div>
-        <div class="right-column">
-            <section class="education">
-                <div class="right-header">
-                    education
-                </div>
-                <div class="education__list">
-                    <h2>Kharkiv Professional Polygraphic Lyceum</h2>
-                    <p>Years:2007-2010</p>
-                    <p>Specialization: Computer layout operator</p>
-                    <h2>Ukrainian Engineering Pedagogical Academy</h2>
-                    <p>Faculty of Mechanics and Technology</p>
-                    <p>Years:2010-2015</p>
-                    <p>Specialization: Printing industry, Bachelor's degree</p>
-                </div>
-            </section>
-            <section class="courses">
-                <div class="right-header">
-                    courses
-                </div>
-                <div class="courses__list">
-                    <div class="course__item">
-                        <a href="https://www.udemy.com/course/webdeveloper/">Udemy: Web developer 2022</a>
+    </header>
+    <div class="main">
+        <div class="container">
+            <section class="contacts">
+                <div class="contacts__wrapper">
+                    <div class="contacts__location">
+                        Kharkiv, Ukraine
                     </div>
-                    <div class="course__item">
-                        <a href="https://www.udemy.com/course/javascript_full/">Udemy: Full course JavaScript + React from zero to result</a>
+                    <div class="contacts__contact-list">
+                        <ul>
+                            <li><a href="https://telegram.me/sveghXsvetel"><img src="img/Telegram_logo.svg.webp"
+                                        alt="telegram" class="contacts-item"> Telegram</a></li>
+                            <li><a href="https://instagram.com/terentyev_jr"><img src="img/Telegram_logo.svg.webp"
+                                        alt="instagram" class="contacts-item">Instagram</a></li>
+                        </ul>
                     </div>
                 </div>
             </section>
-            <section class="code__example">
-                <div class="right-header">
-                    code example
+            <section class="section">
+                <div class="title">Skills</div>
+                <div class="descr">
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript Basics</li>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                        <li>Adobe Photoshop</li>
+                    </ul>
                 </div>
-                <div class="code">
-                    <div class="code__descr">
-                        Let's write a function f4 that will output array a4 to out-4 when button b-4 is pressed. Output format - key space value line break +'br'. The function must return a string in the specified output format.
+            </section>
+            <section class="section">
+                <div class="title">Education</div>
+                <div class="descr">
+                    <div class="education__list">
+                        <h2>Kharkiv Professional Polygraphic Lyceum</h2>
+                        <p>Years:2007-2010</p>
+                        <p>Specialization: Computer layout operator</p>
+                        <h2>Ukrainian Engineering Pedagogical Academy</h2>
+                        <p>Faculty of Mechanics and Technology</p>
+                        <p>Years:2010-2015</p>
+                        <p>Specialization: Printing industry, Bachelor's degree</p>
                     </div>
-                    <div class="some__code">
-                        <pre>
-                            <code>
-                                let a4 = {
-                                    "one": "hello",
-                                    "two": "mahai",
-                                    "five": "hi",
-                                    "test": 21,
-                                    "odd": "hi",
-                                    "mix": "mix"
-                                };
-
-
-                                function f4() {
-                                    let out ='';
-                                    for(key in a4){
-                                        out += `${key} ${a4[key]} br`;
+                </div>
+            </section>
+            <section class="section">
+                <div class="title">Courses</div>
+                <div class="descr">
+                    <div class="courses__list">
+                        <div class="course__item">
+                            <a href="https://www.udemy.com/course/webdeveloper/">Udemy: Web developer 2022</a>
+                        </div>
+                        <div class="course__item">
+                            <a href="https://www.udemy.com/course/javascript_full/">Udemy: Full course JavaScript +
+                                React from zero to result</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-code">
+                <div class="title">Code example</div>
+                <div class="descr">
+                    <div class="code">
+                        <div class="code__descr">
+                            Let's write a function f4 that will output array a4 to out-4 when button b-4 is pressed.
+                            Output format - key space value line break +'br'. The function must return a string in the
+                            specified output format.
+                        </div>
+                        <div class="some__code">
+                            <pre>
+                                <code>
+                                    let a4 = {
+                                        "one": "hello",
+                                        "two": "mahai",
+                                        "five": "hi",
+                                        "test": 21,
+                                        "odd": "hi",
+                                        "mix": "mix"
+                                    };
+                                    function f4() {
+                                        let out ='';
+                                        for(key in a4){
+                                            out += `${key} ${a4[key]} br`;
+                                        }
+                                        return out;
                                     }
-                                    return out;
-                                }
-                            </code>
-                        </pre>
-                    </div>     
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
@@ -133,4 +129,5 @@
         </div>
     </footer>
 </body>
+
 </html>
