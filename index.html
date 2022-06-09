@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Kostya Terentiev CV</title>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -30,8 +32,10 @@
                     </div>
                     <div class="contacts__contact-list">
                         <ul>
-                            <li><a href="https://telegram.me/sveghXsvetel"><img src="img/Telegram_logo.svg.webp" alt="telegram" class="contacts-item"> Telegram</a></li>
-                            <li><a href="https://instagram.com/terentyev_jr"><img src="img/Telegram_logo.svg.webp" alt="instagram" class="contacts-item">Instagram</a></li> 
+                            <li><a href="https://telegram.me/sveghXsvetel"><img src="img/Telegram_logo.svg.webp"
+                                        alt="telegram" class="contacts-item"> Telegram</a></li>
+                            <li><a href="https://instagram.com/terentyev_jr"><img src="img/Telegram_logo.svg.webp"
+                                        alt="instagram" class="contacts-item">Instagram</a></li>
                         </ul>
                     </div>
                 </div>
@@ -70,12 +74,60 @@
                             <a href="https://www.udemy.com/course/webdeveloper/">Udemy: Web developer 2022</a>
                         </div>
                         <div class="course__item">
-                            <a href="https://www.udemy.com/course/javascript_full/">Udemy: Full course JavaScript + React from zero to result</a>
+                            <a href="https://www.udemy.com/course/javascript_full/">Udemy: Full course JavaScript +
+                                React from zero to result</a>
                         </div>
                     </div>
                 </div>
-            </section
-            </div>
+            </section>
+            <section class="section section-code">
+                <div class="title">Code example</div>
+                <div class="descr">
+                    <div class="code">
+                        <div class="code__descr">
+                            Let's write a function f4 that will output array a4 to out-4 when button b-4 is pressed.
+                            Output format - key space value line break +'br'. The function must return a string in the
+                            specified output format.
+                        </div>
+                        <div class="some__code">
+                            <pre>
+                                <code>
+                                    let a4 = {
+                                        "one": "hello",
+                                        "two": "mahai",
+                                        "five": "hi",
+                                        "test": 21,
+                                        "odd": "hi",
+                                        "mix": "mix"
+                                    };
+                                    function f4() {
+                                        let out ='';
+                                        for(key in a4){
+                                            out += `${key} ${a4[key]} br`;
+                                        }
+                                        return out;
+                                    }
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__git">
+                <a href="https://github.com/Kostya-CodeCamp"><img src="img/gitlogo.png" alt=""></a>
+            </div>
+            <div class="footer__year">2022 ©</div>
+            <div class="footer__rsschool">
+                <a href="https://rs.school/">
+                    <img src="img/rs_school_js.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
