@@ -7,6 +7,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto';
 }
 .container {
     max-width: 900px;
@@ -14,26 +15,30 @@
     margin: 0 auto;
 }
 .header {
+    padding: 20px 0;
 }
-.container {
-}
+
 .header__wrapper {
     display: flex;
     justify-content: space-between;
+    border-top: 5px solid #000;
     align-items: center;
 }
 .header__introduce {
-    width: 60%;
-    padding: 30px;
-    border-top: 5px solid #000;
-    border-bottom: 5px solid #000;
+   
 }
 .header__title {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.header__surname {
+    font-weight: 100;
 }
 .header__subtitle {
+    text-align: right;
 }
 .header__photo {
-    width: 300px;
+    width: 250px;
     
 }
 .header__photo img{
@@ -41,13 +46,23 @@
     border-radius: 100%;
 }
 .contacts__wrapper {
-    display: flex;
+    margin-top: 40px;
+    /* display: flex; */
     align-items: center;
     max-width: 600px;
     justify-content: space-around;
 }
+.contacts__location {
+    font-size: 20px;
+}
+.contacts__contact-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 20px;
+}
 .contacts-item {
-    width: 30px;
+    width: 50px;
     vertical-align: center;
 }
 .section {
