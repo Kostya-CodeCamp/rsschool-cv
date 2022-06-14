@@ -127,3 +127,8 @@
     background: #fff;
     width: 100%;
 }
+
+.contacts__contact-list li:hover {
+    transform: scale(1.5, 1.5);
+    transition: .7s;
+}
