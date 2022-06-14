@@ -127,3 +127,15 @@
 .footer img {
     width: 60px;
 }
+
+.footer__rsschool {
+    background: #fff;
+    width: 150px;
+   
+}
+
+.footer__rsschool img {
+    background: #fff;
+    width: 100%;
+    
+}
