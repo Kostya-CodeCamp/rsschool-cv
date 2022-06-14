@@ -86,11 +86,11 @@
 }
 .descr__skills {
     display: flex;
+    column-gap: 20px;
 }
 
 .skills__logo {
-   width: 100px;
-   height: 100px;
+   width: 80px;
 }
 
 .footer {
