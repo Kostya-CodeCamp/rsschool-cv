@@ -93,6 +93,20 @@
    width: 80px;
 }
 
+.courses__udemy {
+    margin-top: 10px;
+    display: flex;
+    width: 480px;
+    row-gap: 10px;
+    align-items: center;
+    text-align: left;
+    column-gap: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
 .footer {
     background: #000;
     height: 90px;
