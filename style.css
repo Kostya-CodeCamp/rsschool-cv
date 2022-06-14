@@ -7,6 +7,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto';
 }
 .container {
     max-width: 900px;
@@ -14,26 +15,26 @@
     margin: 0 auto;
 }
 .header {
-}
-.container {
+    padding: 20px 0 0 0;
 }
 .header__wrapper {
     display: flex;
     justify-content: space-between;
+    border-top: 5px solid #000;
     align-items: center;
 }
-.header__introduce {
-    width: 60%;
-    padding: 30px;
-    border-top: 5px solid #000;
-    border-bottom: 5px solid #000;
-}
 .header__title {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.header__surname {
+    font-weight: 100;
 }
 .header__subtitle {
+    text-align: right;
 }
 .header__photo {
-    width: 300px;
+    width: 250px;
     
 }
 .header__photo img{
@@ -42,12 +43,22 @@
 }
 .contacts__wrapper {
     display: flex;
+    margin-top: 40px;
     align-items: center;
     max-width: 600px;
-    justify-content: space-around;
+   column-gap: 20px;
+}
+.contacts__location {
+    font-size: 20px;
+}
+.contacts__contact-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 20px;
 }
 .contacts-item {
-    width: 30px;
+    width: 70px;
     vertical-align: center;
 }
 .section {
@@ -58,17 +69,61 @@
     border-top: 5px solid #000;
     padding: 30px;
 }
+.title {
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 300px;
+    height: 100px;
+    background: var(--dark-color);
+    color: var(--light-color);
+    line-height: 100px;
+    text-align: center;
+    font-weight: 900;
+}
+.descr__skills {
+    display: flex;
+    column-gap: 20px;
+}
+.skills__logo {
+   width: 80px;
+}
+.courses__udemy {
+    margin-top: 10px;
+    display: flex;
+    width: 480px;
+    row-gap: 10px;
+    align-items: center;
+    text-align: left;
+    column-gap: 20px;
+}
+.logo img {
+    width: 100px;
+}
+.some__code {
+    background: rgb(96.1%, 96.1%, 86.3%);
+    align-items: center;
+    padding: 0 20px;
+}
 .footer {
     background: #000;
     height: 90px;
 }
 .footer__wrapper {
+    padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #ffffff;
-    padding: 20px;
 }
 .footer img {
     width: 60px;
+}
+.footer__rsschool {
+    background: #fff;
+    width: 150px;
+}
+
+.footer__rsschool img {
+    background: #fff;
+    width: 100%;
 }
